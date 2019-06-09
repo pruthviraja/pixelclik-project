@@ -1,0 +1,108 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+
+html 
+     height: 100% 
+
+
+body 
+  height: 100%
+
+
+.bgimg 
+  /* Background image */
+  background-image: url('/src/images/4k-wallpaper-nature.jpg')
+  /* Full-screen */
+  height: 100%
+  /* Center the background image */
+  background-position: center
+  /* Scale and zoom in the image */
+  background-size: cover
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace
+  /* Set the font-size to 25 pixels */
+  font-size: 25px
+
+.image 
+    background-color: #6A5ACD
+
+/* Position text in the top-left corner */
+.topleft 
+  position: absolute
+  top: 0s
+  left: 16px
+
+
+/* Position text in the bottom-left corner */
+.bottomleft 
+  position: absolute
+  bottom: 0
+  left: 16px
+
+
+/* Position text in the middle */
+.middle 
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  text-align: center
+
+
+/* Style the <hr> element */
+hr 
+  margin: auto
+  width: 40%
+
+
+.login-footer__container 
+  padding: 10px 0
+  background-color: #fff
+  color: #7e7c7c
+  display: flex
+
+.login-footer__left-items, .login-footer__right-items 
+  display: flex
+  width: 50%
+  align-items: center
+  justify-content: center
+
+
+.login-footer__logo 
+  width: 70px
+  height: 18px
+  background: url('../../src/images/pixelclik-logo.png') center no-repeat
+  background-size: contain
+  text-indent: -9999px
+
+
+.twitter-social 
+  text-indent: -9999px
+  width: 30px
+  height: 30px
+  background-size: contain
+  background: url('../../src/images/twitter.svg') center no-repeat
+  margin: 0 8px
+
+
+.facebook-social 
+  text-indent: -9999px
+  width: 30px
+  height: 30px
+  background-size: contain
+  background: url('../../src/images/facebook.svg') center no-repeat
+  margin: 0 8px
+
+
+.instagram-social 
+  text-indent: -9999px
+  overflow: hidden
+  width: 30px
+  height: 30px
+  background-size: contain
+  background: url('../../src/images/instagram.svg') center no-repeat
+  margin: 0 8px
+
